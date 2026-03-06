@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fun Button Example</title>
+  <script>
+    function checkAnswer() {
+      // Ask the question
+      let answer = prompt("Is Zander gay? (yes/no)");
+
+      // Check the response
+      if (answer && answer.toLowerCase() === "yes") {
+        alert("Result: Boljoon");
+      } else {
+        alert("Try again!");
+      }
+    }
+  </script>
+</head>
+<body>
+  <button onclick="checkAnswer()">Click Me</button>
+</body>
+</html>
